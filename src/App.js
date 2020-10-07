@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div>
         <PostForm />
+        <hr></hr>
         <Posts />
       </div>
     );
