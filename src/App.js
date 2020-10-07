@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import './App.css';
+import Posts from "./components/Posts";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Post App</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Posts />
+        
+      </div>
+    )
+  }
 }
 
 export default App;
+
