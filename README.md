@@ -34,9 +34,9 @@ App Description \*\*\*
 - CSS3
 - React
 - Create React APP
+- Redux
 -
--
-- Axios
+- 
 
 ## License
 
