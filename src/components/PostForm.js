@@ -10,7 +10,7 @@ class PostForm extends Component {
     this.setState({ [e.target.name]: e.target.value });
   }
 
-  onSubmit(e) {
+  onFormSubmit(e) {
     e.preventDefault();
 
     const post = {
@@ -33,7 +33,7 @@ class PostForm extends Component {
     return (
       <div>
         <h1>Add Post</h1>
-        <form onSubmit={this.onSubmit.bind(this)}>
+        <form onSubmit={this.onFormSubmit.bind(this)}>
           <div>
             <label>Title: </label>
             <br />
@@ -55,11 +55,16 @@ class PostForm extends Component {
             />
           </div>
           <br />
-          <button type="submit">Submit</button>
+          <button type="submit" style={btnStyle}>Submit</button>
         </form>
       </div>
     );
   }
 }
+
+const btnStyle = {
+  background: '#ADD8E6',
+  cursor: 'pointer',
+};
 
 export default PostForm;
