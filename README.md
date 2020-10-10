@@ -8,8 +8,7 @@ App Description \*\*\*
 
 ## Screen Shot
 
-<img src="./public/images/React_Todo_ss_1.png">
-<img src="./public/images/React_Todo_ss_2.png">
+<img src="./public/images/Post_App_ss_1.png">
 
 ### Prerequisites
 
@@ -36,7 +35,7 @@ App Description \*\*\*
 - Create React APP
 - Redux
 -
-- 
+-
 
 ## License
 
