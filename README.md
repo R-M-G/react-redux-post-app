@@ -33,8 +33,9 @@ App Description \*\*\*
 - CSS3
 - React
 - Create React APP
+- React DevTools
 - Redux
--
+- Redux DevTools
 -
 
 ## License
