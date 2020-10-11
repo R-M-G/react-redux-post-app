@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class Posts extends Component {
-  state = {
-    posts: [],
-  };
-
- 
   render() {
     const postItems = this.state.posts.map((post) => (
       <div key={post.id}>
